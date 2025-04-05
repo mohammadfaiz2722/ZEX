@@ -1667,6 +1667,9 @@ body {
     margin-top: 45px;
   }
 }
+footer{
+  border-radius: 0px;
+}
 
 @media (max-width: 1200px) {
   
