@@ -288,7 +288,7 @@ Header Style
   background-color: #0071f8 !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
-  position: fixed!important;
+  position: relative!important;
   top: 0!important;
   left: 0;
   right: 0;
@@ -1673,4 +1673,11 @@ footer{
 
 @media (max-width: 1200px) {
   
+}
+
+.trending > .container > .row{
+  display: flex;
+  align-items: center
+  ;
+  justify-content: center;
 }
